@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Purnima Online Centre - All-in-One Online Services Portal">
+  <title>Purnima Online Centre | All-in-One Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>.top-btn{position:fixed;right:20px;bottom:20px;z-index:80;width:40px;height:40px;border:0;border-radius:50%;color:#fff;background:linear-gradient(135deg,#2178d0,#6544dd);box-shadow:0 8px 20px rgba(35,76,145,.2);cursor:pointer;display:none}.top-btn.show{display:grid;place-items:center}</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap">
+  <img src="assets/purnima-logo.png"
+       alt="Purnima Online Centre Logo"
+       class="brand-logo">
+  <div>
+    <div class="brand-title">Purnima Online Centre</div>
+    <div class="brand-subtitle">All-in-One Online Services Portal</div>
+  </div>
+</div>
+    <div class="header-actions">
+      <a class="btn website" href="https://purnimaonlinecentre.netlify.app/" target="_blank" rel="noopener noreferrer">Go to Main Website</a>
+    </div>
+  </header>
+
+  <main>
+     <section id="home" class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">YOUR LOCAL DIGITAL SERVICE CENTRE</span>
+    <h1>All Online Services<br><span>Under One Roof.</span></h1>
+    <p>Fast, convenient and reliable online & digital services — now with a single portal for important government, education, job, vehicle, land, health and business websites.</p>
+    <div class="hero-actions">
+      <a class="primary-btn" href="#portal">🚀 Explore All Portals</a>
+    </div>
+    <div class="location-line"> Developed By Arijit Duley</div>
+  </div>
+  <div class="hero-logo-card">
+    <img src="assets/purnima-logo.png" alt="Purnima Online Centre">
+  </div>
+    </section>
+<section id="portal" class="portal-wrap">
+  <div class="portal-intro">
+    <span>ALL-IN-ONE PORTAL</span>
+    <h2>গুরুত্বপূর্ণ সব Website এক জায়গায়</h2>
+    <p>Search করুন বা category নির্বাচন করুন। প্রতিটি card থেকে সংশ্লিষ্ট website নতুন tab-এ খুলবে।</p>
+  </div>
+    <section class="toolbar">
+      <div class="search-box">
+        <span>🔎</span>
+        <input id="searchInput" type="search" placeholder="যেমন: Scholarship, Job Card, Challan, Banglarbhumi, PAN..." autocomplete="off">
+        <button id="clearSearch" aria-label="Clear search">✕</button>
+      </div>
+      <div id="categoryNav" class="category-nav"></div>
+    </section>
+
+    <div id="portalContent"></div>
+
+    <div id="noResults" class="no-results hidden">
+      <div class="no-results-icon">🔍</div>
+      <h3>কোনও service পাওয়া যায়নি</h3>
+      <p>অন্য keyword দিয়ে search করুন অথবা একটি category নির্বাচন করুন।</p>
+    </div>
+
+    <section class="notice">
+      <strong>✓ গুরুত্বপূর্ণ:</strong> প্রতিটি card-এর ↗ button চাপলে সংশ্লিষ্ট website নতুন tab-এ খুলবে। সরকারি portal ব্যবহারের আগে URL/domain দেখে নিন।
+    </section>
+
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="assets/purnima-logo.png" alt=""><b>PURNIMA ONLINE CENTRE</b></div>
+  <p>All Online Services • Form Fill Up • Print • Scan • Photo • Document</p>
+  <small>© <span id="year"></span> Purnima Online Centre</small>
+    <p>© <span id="year"></span> Purnima Online Centre. All rights reserved.</p>
+    <p>External websites are operated by their respective organizations.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
