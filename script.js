@@ -17,8 +17,8 @@ const services = [
   {cat:"citizen",icon:"🪪",name:"Aadhaar / UIDAI",desc:"Aadhaar Services",url:"https://myaadhaar.uidai.gov.in/",accent:"#4858b9"},
   {cat:"citizen",icon:"💳",name:"PAN Services",desc:"PAN Application / Services",url:"https://www.incometax.gov.in/",accent:"#2178d0"},
   {cat:"citizen",icon:"🗳️",name:"Voter Services",desc:"Election / Voter Portal",url:"https://voters.eci.gov.in/",accent:"#7447df"},
-  {cat:"citizen",icon:"📘",name:"Passport Seva",desc:"Passport Services",url:"https://www.passportindia.gov.in/psp/",accent:"#0e9c91"},
-  {cat:"citizen",icon:"🇮🇳",name:"Indian Citizenship",desc:"Citizenship application & information",url:"https://indiancitizenshiponline.nic.in/",accent:"#4858b9"},
+  {cat:"citizen",icon:"🇮🇳",name:"Indian Citizenship",desc:"Citizenship application & information",url:"https://indiancitizenshiponline.nic.in/",accent:"#0e9c91"},
+  {cat:"citizen",icon:"👮",name:"Police Clearence Certificate",desc:"WEST BENGAL POLICE",url:"https://pcc.wb.gov.in/",accent:"#4858b9"},
   // Education
   {cat:"education",icon:"🎓",name:"SVMCM Scholarship",desc:"Swami Vivekananda Merit-cum-Means Scholarship",url:"https://svmcm.wb.gov.in/",accent:"#2178d0"},
   {cat:"education",icon:"🌙",name:"Aikyashree Scholarship",desc:"Minority Students Scholarship – Govt. of West Bengal",url:"https://dev.aikyashree.wb.gov.in/",accent:"#7447df"},
