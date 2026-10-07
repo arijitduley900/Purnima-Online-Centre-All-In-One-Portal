@@ -42,7 +42,7 @@ const services = [
   {cat:"land",icon:"🌱",name:"PM-KISAN",desc:"Farmer Services",url:"https://pmkisan.gov.in/",accent:"#0e9c91"},
   {cat:"land",icon:"🌾",name:"Ration Card / Food WB",desc:"Food & Supplies",url:"https://food.wb.gov.in/",accent:"#4858b9"},
   {cat:"land",icon:"📗",name:"NFSA",desc:"National Food Security",url:"https://nfsa.gov.in/",accent:"#2178d0"},
-  {cat:"land",icon:"🏠",name:"WBPRD Property Tax",desc:"Panchayat Online Property Tax",url:"https://prdeodb.wb.gov.in/",accent:"#7447df"},
+  {cat:"land",icon:"🏠",name:"WBPRD Property Tax",desc:"Panchayat Online Property Tax",url:"https://prdtax.wb.gov.in/",accent:"#7447df"},
   // Vehicle
   {cat:"vehicle",icon:"🚘",name:"Parivahan Sewa",desc:"Driving / Vehicle Services",url:"https://parivahan.gov.in/",accent:"#2178d0"},
   {cat:"vehicle",icon:"🪪",name:"Sarathi Parivahan",desc:"Driving / Learner Licence",url:"https://sarathi.parivahan.gov.in/",accent:"#7447df"},
